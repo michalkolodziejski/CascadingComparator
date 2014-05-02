@@ -1,6 +1,9 @@
 CascadingComparator
 ===================
 
+## Build status
+[![Build Status](https://buildhive.cloudbees.com/job/michalkolodziejski/job/CascadingComparator/badge/icon)](https://buildhive.cloudbees.com/job/michalkolodziejski/job/CascadingComparator/)
+
 ##Description
 CascadingComparator gives you the ability to generate a decent `java.util.Comparator` for your class, enables sorting with multiple attributes, priority of executing comparators, and null value handling.
 
