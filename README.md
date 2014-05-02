@@ -1,6 +1,5 @@
 CascadingComparator
 ===================
-<<<<<<< HEAD
 
 ##Description
 CascadingComparator gives you the ability to generate a decent java.util.Comparator for your class, enables sorting with multiple attributes, priority of executing comparators, and null value handling.
@@ -129,5 +128,3 @@ It all started by 'scratching own itch' - universal solution created solely for 
 ## Problems?
 
 [Submit an issue](https://github.com/michalkolodziejski/CascadingComparator/issues).
-=======
->>>>>>> parent of 20ff355... fixed readme.md
