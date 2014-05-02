@@ -2,7 +2,7 @@ CascadingComparator
 ===================
 
 ##Description
-CascadingComparator gives you the ability to generate a decent java.util.Comparator for your class, enables sorting with multiple attributes, priority of executing comparators, and null value handling.
+CascadingComparator gives you the ability to generate a decent `java.util.Comparator` for your class, enables sorting with multiple attributes, priority of executing comparators, and null value handling.
 
 ##Compile
 You need JDK 1.7 and Maven to compile the project.
