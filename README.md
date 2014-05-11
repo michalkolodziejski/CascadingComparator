@@ -7,6 +7,13 @@ CascadingComparator
 ##Description
 CascadingComparator gives you the ability to generate a decent `java.util.Comparator` for your class, enables sorting with multiple attributes, priority of executing comparators, and null value handling.
 
+## Credits
+***Special thanks goes to a team that is responsible for [SmartComparator Project](https://github.com/P1tt187/SmartComparator), a project that solves the same problem, but with other unique features and way of usage. I have found (and forked) their project on late phase of development of CascadingComparator, thus there are some similiarities, I haven't found in it, what I was looking for - thus I was encouraged to progress and finish my own original work, without code plagiarism, violating licenses or copyright. Nevertheless I understand that even when two projects were developed simultanously, in independent way - the team that is responsible for SmartComparator project, was first in discovering such idea for defining Java object comparators.*** 
+
+***Special thanks to Andrzej Masłowski for asking the right question at the right time.***
+
+It all started by 'scratching own itch' - universal solution created solely for my own consumption. Then I've decided to share it with JAVA community.
+
 ##Compile
 You need JDK 1.7 and Maven to compile the project.
 ```shell
@@ -116,14 +123,6 @@ This attribute defines an substitution value for `null` value for a field. It in
 ```
 
 Defined as above - instruments comparator factory to make comparator for this field with a substitution for `nvl` argument in mind, when `null` value is provided for comparator.
-
-## Credits
-
-***Special thanks goes to a team that is responsible for [SmartComparator Project](https://github.com/P1tt187/SmartComparator), a project that solves the same problem, but with other unique features and way of usage. I have found (and forked) their project on late phase of development of CascadingComparator, thus there are some similiarities, I haven't found in it, what I was looking for - thus I was encouraged to progress and finish my own original work, without code plagiarism, violating licenses or copyright. Nevertheless I understand that even when two projects were developed simultanously, in independent way - the team that is responsible for SmartComparator project, was first in discovering such idea for defining Java object comparators.*** 
-
-***Special thanks to Andrzej Masłowski for asking the right question at the right time.***
-
-It all started by 'scratching own itch' - universal solution created solely for my own consumption. Then I've decided to share it with JAVA community.
 
 ## History
 
